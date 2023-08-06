@@ -26,17 +26,17 @@ const Comics = () => {
             <div>Chargement</div>) :
             (
                 <div>
-                        {data.map((comic) =>{
-                            const description = comic.description;
+                        {data.map((comic, index) =>{
+                            const description = comic.title;
                             
                             return(
-                                <Link>{comic.title}</Link>
-                                // <div>{comic.title}</div>
+                                <Link to={`/comic/${comic.title}`}>
+                                {comic.title}
+                                </Link>
                             );
-                            })}
+                          })}
                 </div>
-            );
-           
+            );      
 };
 export default Comics;
 
