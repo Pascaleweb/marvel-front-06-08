@@ -1,0 +1,44 @@
+header {
+  background-color: rgb(33, 40, 40);
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  gap: 90px;
+}
+
+p {
+  color: brown;
+}
+
+header img {
+  height: 80px;
+  width: 200px;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: 100px;
+  margin-top: 25px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+header a {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+}
+
+header .liens {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  margin-top: 30px;
+}
