@@ -1,0 +1,34 @@
+.bande img {
+  width: 150px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.bande p {
+  color: rgb(16, 17, 16);
+  font-family: "Courier New", Courier, monospace;
+}
+
+.bande h2 {
+  color: rgb(37, 32, 32);
+  font-size: 35px;
+  font-weight: bolder;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.bande {
+  width: 1024px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+  gap: 20px;
+}
+
+.bande-titre {
+  border: black solid 1px;
+  border-radius: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

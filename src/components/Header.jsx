@@ -12,12 +12,11 @@ const Header = () => {
             <img src={logo} alt="logo MARVEL" />
           </Link>
         </div>
-       
+
         <div className="liens">
-        <Link to={"/characters"}>Personnages</Link> 
-        <Link to={"/comics"}> Bandes Dessinées</Link>
+          <Link to={"/characters"}>CHARACTERS</Link>
+          <Link to={"/comics"}>COMICS</Link>
         </div>
-  
       </div>
     </header>
   );

@@ -1,24 +1,25 @@
-import "../styles/charactercard.css";
+import "../styles/characterCard.css";
 
 import { Link } from "react-router-dom";
 
-const CharacterCard = ({ character }) => {
+
+const CharacterCard = ({ characters }) => {
   return (
-    <Link to={`/character/${character._id}`}>
-      <article key={character._id}>
+    <Link to={`/characters/${characters._id}`}>
+      <article key={characters._id}>
         <section>
           <div>
             <img
               src={
-                character.thumbnail.path + "." + character.thumbnail.extension
+                characters.thumbnail.path + "." + characters.thumbnail.extension
               }
-              alt={character.name}
+              alt={characters.name}
             />
           </div>
 
           <div>
-            <h2>{character.name}</h2>
-            <p>{character.description}</p>
+            <h2>{characters.name}</h2>
+            <p>{characters.description}</p>
           </div>
         </section>
       </article>
